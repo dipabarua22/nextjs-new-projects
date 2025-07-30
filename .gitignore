@@ -1,0 +1,19 @@
+# Ignore node_modules and build output from all sub-projects
+**/node_modules/
+**/.next/
+**/.env
+**/*.log
+**/.DS_Store
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
+
+# Build platforms (optional)
+.vercel/
+.netlify/
